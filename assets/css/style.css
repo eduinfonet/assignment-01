@@ -46,3 +46,44 @@ header {
   font-weight: 900;
   max-width: 632px;
 }
+
+/* 65% off section */
+.off-section {
+  width: 50%;
+  max-width: 1000px;
+  margin: 120px auto;
+}
+.off-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.off-percentage {
+  color: #f00;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+}
+.holiday {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 48px;
+}
+.all-category {
+  color: #070211;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin-top: 10px;
+}
+.off-img {
+  margin-top: 100px;
+}
+.off-img img {
+  width: 800px;
+  height: 500px;
+}
