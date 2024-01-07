@@ -144,3 +144,48 @@ header {
 .midnight-img {
   margin-right: 70px;
 }
+
+/* place section */
+.place-container {
+  width: 90%;
+  height: 500px;
+  max-width: 1300px;
+  margin: 20px auto;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(250, 0, 0, 0) 100%
+  );
+  border-radius: 10px;
+}
+.place-description {
+  display: flex;
+  flex-direction: column;
+  height: 500px;
+  align-items: center;
+  justify-content: center;
+}
+.place-description p span {
+  color: #f00;
+}
+.place-description p {
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-align: center;
+}
+.place-description button {
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+  text-align: center;
+}
+.place-description * {
+  padding-bottom: 10px;
+}
