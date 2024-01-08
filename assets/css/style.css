@@ -257,7 +257,7 @@ header {
 }
 
 /* holiday section */
-.holidat-section {
+.holiday-section {
   width: 90%;
   max-width: 1300px;
   margin: 20px auto;
@@ -265,7 +265,7 @@ header {
 .holiday-description * {
   text-align: center;
   padding: 20px 0;
-  margin-bottom:20px: ;
+  margin-bottom: 20px;
 }
 .holiday-description h3 {
   color: #070211;
@@ -292,4 +292,34 @@ header {
   font-size: 20px;
   font-weight: 500;
   padding: 0px 190px;
+}
+
+/* holiday image css */
+
+.holiday-image {
+  position: relative;
+  margin: 100px 0;
+}
+.holiday-image div .img1 {
+  position: absolute;
+  right: 0;
+}
+
+.holiday-image div .img2 {
+  position: absolute;
+  right: 270px;
+  top: 70px;
+}
+
+.holiday-image div .img3 {
+  position: absolute;
+  top: 100px;
+  left: 90px;
+  z-index: 10;
+  width: 50%;
+}
+.holiday-image div .img4 {
+  position: absolute;
+  top: 430px;
+  width: 100%;
 }
