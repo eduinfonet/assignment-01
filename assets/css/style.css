@@ -406,7 +406,7 @@ header {
 
 .subscribe-description form {
   max-width: 800px;
-  margin: 20px auto;
+  margin: 40px auto;
   display: flex;
   width: 540px;
 }
@@ -439,9 +439,11 @@ header {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 0 10px;
+  padding: 0 25px;
 }
+
 /* footer section */
+
 .footer-section {
   background-color: #070211;
   height: 600px;
@@ -466,12 +468,16 @@ header {
   margin-right: 10px;
 }
 
+.hr-line {
+  margin-top: 50px;
+  color: rgb(172, 192, 185);
+}
+
 .social-icon {
   display: flex;
   gap: 20px;
   justify-content: center;
-  margin: 150px 0px;
-  padding: 20px;
+  margin: 140px 0px;
 }
 .footer-bottom {
   display: flex;
