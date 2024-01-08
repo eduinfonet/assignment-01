@@ -189,3 +189,107 @@ header {
 .place-description * {
   padding-bottom: 10px;
 }
+/* comming section */
+
+.comming-section {
+  width: 90%;
+  max-width: 1300px;
+  margin: 20px auto;
+  height: 600px;
+}
+
+.comming-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 50px;
+}
+
+.comming-text-left h2 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.comming-text-left h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+  padding-bottom: 22px;
+}
+.comming-text-left p {
+  max-width: 393px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+/* image part */
+.comming-img-container {
+  width: 380px;
+  height: 380px;
+}
+.comming-red-border {
+  border-radius: 50%;
+  border: 10px solid red;
+}
+.comming-white-outline {
+  border-radius: 50%;
+  outline: 15px solid rgb(255, 255, 255);
+  outline-offset: -10px;
+}
+.comming-text-right h1 {
+  color: #f00;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+}
+.comming-text-right p {
+  width: 276px;
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+/* holiday section */
+.holidat-section {
+  width: 90%;
+  max-width: 1300px;
+  margin: 20px auto;
+}
+.holiday-description * {
+  text-align: center;
+  padding: 20px 0;
+  margin-bottom:20px: ;
+}
+.holiday-description h3 {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday-description h1 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday-description h1 span {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+.holiday-description p {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0px 190px;
+}
